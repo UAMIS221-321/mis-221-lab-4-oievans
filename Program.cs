@@ -14,6 +14,12 @@ string input = Console.ReadLine();
         {
             System.Console.WriteLine("Pease enter 1 for a full triangle, 2 for a partial triangle and 3 to exit.");
             input = Console.ReadLine();
+                if(input == "1") GetFull();
+                else if( input == "2") GetPartial();
+                else if(input == "3")
+                {
+                    System.Console.WriteLine("No Triangles Requested, Exiting Now");
+                }
         }
 
 
